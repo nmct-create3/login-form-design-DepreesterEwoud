@@ -208,6 +208,10 @@ label,input{
 
 .o-row--login {
     /* stuff here to align the card */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* size modifiers */
@@ -491,17 +495,18 @@ label,input{
     padding-top: 48px;
 }
 .c-card__footer{
-    padding-bottom: 24px;
-    padding-left: 48px;
-    padding-right: 48px;
-    border-top: 10px black;
+    text-align: center;
+    padding: 24px 48px 24px 48px;
+    border-top: 1px solid #707070;
 }
 /*
     Component: Forms
     ---
     Everything form related here
 */
-
+.c-color{
+    color: #757787;
+}
 /*
     Component: Input
     ---
