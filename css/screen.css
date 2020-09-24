@@ -486,6 +486,7 @@ label,input{
 .c-card__body{
     padding-left: 48px;
     padding-right: 48px;
+    padding-bottom: 48px;
 }
 .c-card__title{
     text-align: center;
@@ -493,6 +494,7 @@ label,input{
     font-size: 18px;
     font-weight: 600;
     padding-top: 48px;
+    margin-bottom: 48px;
 }
 .c-card__footer{
     text-align: center;
@@ -533,6 +535,8 @@ label,input{
 .c-input:hover{
     border-color: #CACCD4;
 }
+
+
 /*
     Component: Label
     ---
@@ -590,6 +594,9 @@ label,input{
 
 }
 
+.c-check:focus{
+    border-color: #3385FF;
+}
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
